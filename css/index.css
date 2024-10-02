@@ -1,0 +1,49 @@
+*{padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+header{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 100px;
+    position: relative;
+    letter-spacing: 20px;
+}
+article{
+    background-color: rgb(255, 255, 255);
+    color: rgb(124, 145, 164);
+      position: relative;
+      height: 100%;
+      width: 100%;
+      padding-top: 100px;
+}
+.p{color: brown;
+    height: 400px;
+    width:auto;
+    margin: 0 auto;
+    font-size: 20px;
+    padding-top: 1px;
+}
+.charts{
+    background-color: rgb(24, 91, 83);
+    width: 100%;
+    height: 100%;
+    margin:0 auto;
+}
